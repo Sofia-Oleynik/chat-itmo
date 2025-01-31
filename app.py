@@ -13,7 +13,7 @@ from langchain_core.prompts import PromptTemplate
 from urllib.parse import urljoin
 import torch
 
-api_key = "ok"
+api_key = "api-key"
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = api_key
 model_name = "google/mt5-small"
 
